@@ -1,1 +1,39 @@
 /* init commit */
+*{
+    box-sizing: border-box;
+}
+/* center the elements on the page */
+body{
+    text-align: center;
+    padding: 15px;
+}
+/* The styling for the buttons */
+li{
+    list-style-type: none;
+}
+
+ul{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+}
+
+/* centering and sizing the images */
+img{
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+}
